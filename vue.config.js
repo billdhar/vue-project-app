@@ -10,6 +10,7 @@ module.exports = {
     https: {
       key: fs.readFileSync('./certs/key.pem'),
       cert: fs.readFileSync('./certs/cert.pem')
-    }
+    },
+    public: 'https://172.17.0.2:8080'
   }
 }
