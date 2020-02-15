@@ -11,6 +11,6 @@ module.exports = {
       key: fs.readFileSync('./certs/key.pem'),
       cert: fs.readFileSync('./certs/cert.pem')
     },
-    public: 'https://35.204.132.106:8080'
+    public: 'https://192.168.99.1:8080'
   }
 }
